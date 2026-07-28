@@ -1,0 +1,11 @@
+Dataset,Method,Percentage,NumSamples,TestAcc
+fashion,Hybrid-PPR,100,60000,0.9277
+fashion,Hybrid-PPR,80,48000,0.9295
+fashion,Hybrid-PPR,50,30000,0.9173
+fashion,Hybrid-PPR,25,15000,0.8713
+fashion,Hybrid-PPR,5,3000,0.7575
+cifar100,Hybrid-PPR,100,50000,0.5421
+cifar100,Hybrid-PPR,80,40000,0.5179
+cifar100,Hybrid-PPR,50,25000,0.4591
+cifar100,Hybrid-PPR,25,12500,0.3418
+cifar100,Hybrid-PPR,5,2500,0.1293

@@ -1,0 +1,11 @@
+Dataset,Method,Percentage,NumSamples,TestAcc
+bloodmnist,Hybrid-PPR,100,11959,0.9210757088570594
+bloodmnist,Hybrid-PPR,80,9567,0.926629640456007
+bloodmnist,Hybrid-PPR,50,5979,0.9228295819935691
+bloodmnist,Hybrid-PPR,25,2989,0.8909675533469745
+bloodmnist,Hybrid-PPR,5,597,0.8029815843320667
+cifar10,Hybrid-PPR,100,50000,0.8367
+cifar10,Hybrid-PPR,80,40000,0.8209
+cifar10,Hybrid-PPR,50,25000,0.7815
+cifar10,Hybrid-PPR,25,12500,0.6712
+cifar10,Hybrid-PPR,5,2500,0.379
