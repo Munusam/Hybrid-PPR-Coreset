@@ -83,18 +83,14 @@ pip install -r requirements.txt
 ### 1. Run baseline methods (Random, Herding, Forgetting, EL2N, CCS)
 
 ```bash
-python <baseline_script>.py --dataset cifar100
+download and run the basline notebooks
 ```
 
 ### 2. Run Hybrid-PPR
 
 ```bash
-python <hybrid_ppr_script>.py --dataset cifar100
+download and run the hybrid-ppr notebooks
 ```
-
-<!-- Replace <baseline_script> / <hybrid_ppr_script> with your actual filenames
-     — make sure these match what's committed to the repo, or the commands
-     above won't run. -->
 
 Both scripts:
 - train a lightweight ResNet-18 proxy for 5 warm-up epochs to compute EL2N
@@ -120,8 +116,8 @@ than a formal hyperparameter search — noted here for transparency.
 
 ```
 .
-├── <baseline_script>.py     # Random / Herding / Forgetting / EL2N / CCS
-├── <hybrid_ppr_script>.py   # Hybrid-PPR (this paper's method)
+├── baseline_notebooks/ _baseline.ipynb     # Random / Herding / Forgetting / EL2N / CCS
+├── hybrid-ppr/ _hybrid-ppr.ipynb           # Hybrid-PPR (this paper's method)
 ├── requirements.txt
 └── results/                 # CSV outputs land here after each run
 ```
@@ -150,6 +146,3 @@ than a formal hyperparameter search — noted here for transparency.
 }
 ```
 
-## License
-
-MIT — see `LICENSE`.
