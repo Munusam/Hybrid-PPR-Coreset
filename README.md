@@ -81,20 +81,18 @@ pip install -r requirements.txt
 ## Usage
 
 ### 1. Run baseline methods (Random, Herding, Forgetting, EL2N, CCS)
-
+The baseline experiments are split into two scripts to manage memory and execution time.
 ```bash
-python <baseline_script>.py --dataset cifar100
-```
+# Runs baselines
+BloodMNIST.ipynb
+CIFAR-100_baseline.ipynb
+CIFAR-10_baseline.ipynb
+Fashion-MNIST_baseline.ipynb
 
 ### 2. Run Hybrid-PPR
 
-```bash
-python <hybrid_ppr_script>.py --dataset cifar100
-```
-
-<!-- Replace <baseline_script> / <hybrid_ppr_script> with your actual filenames
-     — make sure these match what's committed to the repo, or the commands
-     above won't run. -->
+ppr-blood-MNIST and CIFAR-10.ipynb
+ppr-fashion-MNIST and CIFAR-100.ipynb
 
 Both scripts:
 - train a lightweight ResNet-18 proxy for 5 warm-up epochs to compute EL2N
